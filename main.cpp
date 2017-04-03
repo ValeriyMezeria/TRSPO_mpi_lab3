@@ -39,7 +39,7 @@ int main(int argc, char * argv[]) {
     vector<double> yTable;
     vector<double> xTable;
     
-    ifstream ifile("data.txt");
+    ifstream ifile("build/data.txt");
 
     if (!ifile.is_open()) {
         cerr << "There was a problem opening the input file!\n";
